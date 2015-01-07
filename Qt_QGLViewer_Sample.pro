@@ -15,10 +15,12 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    sampleViewer.cpp
+    sampleViewer.cpp \
+    graphicareawidget.cpp
 
 HEADERS  += mainwindow.h \
-    sampleViewer.h
+    sampleViewer.h \
+    graphicareawidget.h
 
 FORMS    += mainwindow.ui
 

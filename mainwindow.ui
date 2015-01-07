@@ -14,7 +14,7 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <widget class="SampleViewer" name="widget" native="true">
+   <widget class="GraphicAreaWidget" name="widget" native="true">
     <property name="geometry">
      <rect>
       <x>110</x>
@@ -48,9 +48,9 @@
  <layoutdefault spacing="6" margin="11"/>
  <customwidgets>
   <customwidget>
-   <class>SampleViewer</class>
+   <class>GraphicAreaWidget</class>
    <extends>QWidget</extends>
-   <header location="global">sampleViewer.h</header>
+   <header>graphicareawidget.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>
